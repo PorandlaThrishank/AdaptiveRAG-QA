@@ -5,6 +5,7 @@ __pycache__/
 .venv/
 venv/
 uploads/
+data/*.db
 *.pdf
 .env
 .DS_Store

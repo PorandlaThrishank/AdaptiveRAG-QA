@@ -73,11 +73,22 @@ Open:
 http://127.0.0.1:5000
 ```
 
+## Run tests
+
+Install pytest and run the application tests:
+
+```bash
+pip install pytest
+python -m pytest -q
+```
+
 ## Main files
 
-- `app.py` - Flask backend/API
+- `app.py` - Flask web application and API
+- `database.py` - SQLite persistence for users, documents, settings and history
 - `adaptive_rag.py` - ingestion, routing, adaptive retrieval and generation
-- `templates/index.html` - frontend
+- `templates/` and `static/` - application pages, styles and frontend scripts
+- `test_app.py` - application tests
 - `requirements.txt` - dependencies
 
 ## Good demo questions
